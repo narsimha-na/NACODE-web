@@ -1,0 +1,124 @@
+body {
+  background-color: #673AB7;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.heading-auth{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  width:50%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: #FFFFFF; 
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #673AB7;
+}
+
+.right {
+  right: 0;
+  border-radius: 25px;
+  background-color: #FFFFFF;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+.input-label{
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: start;
+}
+.input-text{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size:1em;
+  font-family: 'Ubuntu', sans-serif;
+  display: inline-block;
+  border: 2px solid rgb(167, 166, 166);
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+.input-text:focus{
+  border: 2px solid #673AB7;
+}
+
+.button{
+  width: 25%;
+  background-color: #673AB7;
+  color: white;
+  padding:20px;
+  font-weight: bold;
+  font-size:1em;
+  text-align:start;
+  margin-top: 25px;;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.button:hover {
+  background-color: rgb(78, 6, 200);
+}
+
+.login-container{
+  margin:40px;
+}
+
+.logo-text{
+  font-family: 'Bungee', cursive;
+  font-size:5.4em;
+  font-align:center;
+  color: white;
+  margin:20px;
+  position: absolute;
+  top: 40%;
+
+}
+
+/* INPUT TEXT */
+
+
+/* 
+<color name="colorPrimary">#673AB7</color>
+    <color name="colorPrimaryDark">#512DA8</color>
+    <color name="colorAccent">#FFC107</color> */
+
+/* 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%); */
